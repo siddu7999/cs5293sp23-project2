@@ -61,10 +61,8 @@ The main() function is called when the script is run from the command line.
 # Test Functions:
 ## test_load_data: 
 This process tests the load_data method, which retrieves a list of dictionaries after reading data from a JSON file. The function produces a temporary JSON file with test data, uses the path to this file to execute the load_data method, and then verifies that the data returned matches what was intended.
-test_preprocess_data: 
+## test_preprocess_data: 
 This function evaluates the preprocess_data function, which prepares data for vectorization by taking a list of dictionaries containing the names of dishes and ingredient lists. The preprocess_data function is called using a test input list of dictionaries, and the resulting data is compared to the expected data.
-## test_vectorize_data:
-This function evaluates the scikit-learn CountVectorizer class's vectorize_data function, which uses a list of strings to create a matrix of token counts. With a test input list of strings, the function executes the vectorize_data function and determines whether the resulting CountVectorizer instance and vectorized matrix match the expected values.
 ## test_train_model:
 This function tests the NearestNeighbors class from scikit-learn's NearestNeighbors function, which trains a k-nearest neighbors model. In order to determine whether the returned NearestNeighbors instance contains the expected parameters, the function runs the train_model function with a test input matrix and additional arguments.
 ## test_find_closest_cuisines:
