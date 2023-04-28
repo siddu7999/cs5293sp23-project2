@@ -41,6 +41,7 @@ The trained vectorizer object and the modified X_vectorized data are both return
 ## training:
 The function first creates a scikit-learn nearest neighbors model object and assigns it to the model variable. Based on the supplied inputs, the n_neighbors, method, and metric hyperparameters are set for the model object. Then the input data X_vectorized is passed to the fit() method of the nearest neighbors model object, which trains the model on the input data to identify the closest neighbors based on the supplied hyperparameters.
 The function then returns the trained model object, which may be used to analyse further data or make predictions about brand-new pieces of information.
+
 I have compared the accuracies of several machine learning models like the naive bayes, knn classifier, svc classifier for the given yummly.json data set, in which the knn turned out to be more accurate and efficient comparitively.
 ## closest_cusine:
 This function changes all of the input ingredients to lower case, unites them into a string separated by commas, and then vectorizes the string using the transform() method of the vectorizer object, returning a sparse matrix of the vectorized input data.
