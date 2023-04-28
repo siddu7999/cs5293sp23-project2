@@ -1,4 +1,6 @@
 # CS5293SP23_project-2
+## SIDDARTHA SODUM
+## OU_I'D: 
 
 # Project description:  
 The objective of this project is to develop a cuisine predictor that groups foods according to their ingredients and forecasts the cuisine type of a new item in order to assist a hotel chain in increasing menu revenues. The data sets, which are made available by Yummly.com, comprise a comprehensive list of all potential dishes, a list of each dish's ingredients, a unique identity, and the cuisine in which it is served. The project calls for developing an application that analyzes a user's list of components to determine the type of cuisine it will be and then locates the top-N nearby foods. The procedure for creating the project is training or indexing the food data, asking the user to enter ingredients, asking the user to enter ingredients,
